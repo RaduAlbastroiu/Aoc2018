@@ -14,4 +14,5 @@ function main(input)
   console.log(result);
 }
 
+
 module.exports = {main};
