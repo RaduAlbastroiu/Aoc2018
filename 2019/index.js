@@ -9,5 +9,5 @@ const fs = require('fs');
 
 const date = fs.readFileSync('./date.in', 'utf8');
 
-day2.main(date);
+day3.main(date);
 
