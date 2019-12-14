@@ -9,13 +9,14 @@ const day6 = require('./day6');
 const day7 = require('./day7');
 const day8 = require('./day8');
 const day9 = require('./day9');
-const day10 = require('./day10');
 const day12 = require('./day12');
+const day14 = require('./day14');
+
 
 const fs = require('fs');
 
 
 const date = fs.readFileSync('./date.in', 'utf8');
 
-day12.main(date);
+day14.main(date);
 
